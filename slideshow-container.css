@@ -1,0 +1,23 @@
+
+.slideshow-container{
+    max-width: vw;
+    max-height: 300px;
+    margin: auto;
+    align-items: center;
+    overflow: hidden;
+}
+/* Hide Images by default */
+.mySlides{
+    display: none;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  @keyframes fade {
+    from{ opacity: .4}
+    to{opacity :1}
+}
