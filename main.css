@@ -2,39 +2,68 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
     display: block;
     font-family: Verdana, Tahoma, sans-serif;
 }
-.features{
-background-color: #393E46;
-height: 20px;
+
+.features {
+    background-color: #393E46;
+    height: 25px;
 }
-.features ul{
+
+.features ul {
     display: flex;
     align-items: flex-start;
     list-style: none;
-    line-height: 20px;
+    line-height: 25px;
 }
-.features a{
+
+.features a {
     text-decoration: none;
     color: #EEEEEE;
-    padding: 0 20px;
+    padding: 0px 15px;
+}
+
+.features .dropitems li:hover {
+    background-color: #393E46;
+    transition: background-color 0.5s;
+}
+
+.features .dropitems {
+    display: none;
+    background-color: #222831;
+    color: #EEEEEE;
+    position: relative;
+    margin: 0;
+
+}
+
+.features .dropitems li {
+    display: block;
+    border-bottom: 1px solid #00ADB5;
+    margin: 0px 2px !important;
+}
+.features .dropdown:hover .dropitems {
+    display: block;
+    z-index: 1;
+    box-shadow: 10px 5px 5px black;
 }
 .header {
     width: 100%;
     margin: 10px 10px 4px 0;
     padding-left: 25px;
 }
-.ministry{
+
+.ministry {
     display: flex;
     text-align: flex-start;
     text-decoration: none;
     color: black;
 }
+
 .logo {
     display: flex;
     align-items: flex-start;
@@ -45,12 +74,11 @@ height: 20px;
     text-decoration: none;
     margin: 0 10px;
 }
-.hearing{
-    margin-left: auto;
+
+.hearing {
+    margin : 10px auto;
 }
-.hearing h1{
-    margin: 0 65px 0 0!important;
-}
+
 .model {
     height: 100px;
 }
@@ -72,54 +100,53 @@ height: 20px;
     color: #EEEEEE;
     text-decoration: none;
     line-height: 40px;
-    padding: 20px 20px;
+    padding: 10px 20px;
 
 }
 
 .home {
     width: 22px;
     height: 18px;
-    margin-top: 15px;
+    
 }
 
 .navi li:hover {
     background-color: #222831;
 }
 
-.dropitems {
+.navi .dropitems {
     display: none;
     background-color: #00ADB5;
     color: #EEEEEE;
     position: relative;
-    min-width: 200px;
 }
 
-.dropitems a {
+.navi .dropitems a {
     display: block;
     line-height: 40px !important;
     padding: 0px 20px !important;
     border-bottom: 1px solid #222831;
 }
 
-.dropdown:hover .dropitems {
+.navi .dropdown:hover .dropitems {
     display: block;
     z-index: 1;
     box-shadow: 10px 5px 5px black;
-
 }
 
-.dropitems a:hover {
+.navi .dropitems a:hover {
     background-color: #393E46;
     transition: background-color 0.5s;
 }
-.marque{
-  width: 100%; 
-  background-color: #00ADB5;
-  color: #EEEEEE;
-  font-size: 14px;
-}
-.foot{
-    background-color: #222831;
 
+.marque {
+    width: 100%;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    font-size: 14px;
+}
+
+.foot {
+    background-color: #222831;
     bottom: 0;
 }
