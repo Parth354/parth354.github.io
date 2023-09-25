@@ -4,55 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Case Management Hearing |Ministry of Law & Justice</title>
+    <title>Home || Case Management Hearing || Ministry of Law & Justice ||GOI</title>
     <link rel="icon" type="image/x-icon" href="/eportal/Images/download.png">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="slideshow-container.css">
+    <link rel="stylesheet" href="newsdiv.css">
+    <link rel="stylesheet" href="servicesdiv.css">
+    <link rel="stylesheet" href="footer.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="features">
         <ul>
             <a href="https://www.xn--i1bj3fqcyde.xn--11b7cb3a6a.xn--h2brj9c/" target="main">
-                <li>
-                    <h6>भारत सरकार</h6>
+                <li>भारत सरकार
                 </li>
             </a>
             <a href="https://www.india.gov.in/" target="main" style="margin-right: auto;">
-                    <li>
-                    <h6>Government Of India</h6>
+                <li>
+                    Government Of India
                 </li>
-                </a>
-            <a href="#maincontent" class="skip">
-                <li><h6>Skip to Main Content</h6></li>
             </a>
-           <div class="dropdown">
-            <li style="height: 25px!important;"><img src="/eportal/Images/ico.png" style="width:25px ; height: 25px; cursor: pointer; margin: 0 5px;" ></li>
-            <div class="dropitems">
-                <li><h6 style="cursor: pointer; padding:0 2px!important;">A+</h6></li>
-                <li><h6 style="cursor: pointer; padding:0 2px!important;">A</h6></li>
-                <li><h6 style="cursor: pointer; padding:0 2px!important;">A-</h6></li>
+            <a href="#maincontent" class="skip">
+                <li>
+                    Skip to Main Content
+                </li>
+            </a>
+            <div class="dropdown">
+                <li style="height: 25px!important;"><img src="/eportal/Images/ico.png"
+                        style="width:25px ; height: 24px; cursor: pointer; margin: 0 5px;"></li>
+                <div class="dropitems">
+                    <li onclick="increaseSizeByBtn()">
+                        <h7 style="cursor: pointer; padding:0 2px!important;">A+</h7>
+                    </li>
+                    <li>
+                        <h7 style="cursor: pointer; padding:0 2px!important;">A</h7>
+                    </li>
+                    <li>
+                        <h7 style="cursor: pointer; padding:0 2px!important;">A-</h7>
+                    </li>
+                </div>
             </div>
-        </div>
-        <div class="dropdown">
-            <li style="height: 25px!important; "><img src="/eportal/Images/ico-social.png" style="width:25px ; height: 25px; cursor: pointer; margin: 0 5px;" ></li>
-            <div class="dropitems">
-                <a href="https://twitter.com/MLJ_GoI" style="padding: 0 !important;"><li><img src="/eportal/Images/logox.jpg" style="height: 20px; width: 20px; "></li></a>
-                
+            <div class="dropdown">
+                <li style="height: 25px!important; "><img src="/eportal/Images/ico-social.png"
+                        style="width:25px ; height: 25px; cursor: pointer;"></li>
+                <div class="dropitems">
+                    <a href="https://twitter.com/MLJ_GoI" style="padding: 0 !important;">
+                        <li><img src="/eportal/Images/logox.jpg" style="height: 20px; width: 20px; "></li>
+                    </a>
+
+                </div>
             </div>
-        </div>
-        
-    </ul>
-       
+
+        </ul>
+
     </div>
     <marquee class="marque" behavior="scroll">
-        <h5>Welcome to Case Management Hearing Portal. Under Ministry of Law & Justice</h5>
+        <h7 style="font-weight: 650;">Welcome to Case Management Hearing Portal. Under Ministry of Law & Justice</h7>
     </marquee>
     <div class="header">
         <div class="logo">
-            <a href="https://lawmin.gov.in/" target="main" class="ministry">
+            <a href="https://lawmin.gov.in/" target="main" class="ministry" style="text-decoration: none;">
                 <img src="/eportal/Images/emblem-dark.png" alt="national emblem">
                 <h1 lang="hi">विधि और न्याय मंत्रालय <br>
                     Ministry Of Law & <br> Justice </h1>
@@ -68,7 +82,7 @@
 
             <div class="model"><a href="https://main.sci.gov.in/" target="main">
                     <model-viewer src="/eportal/3dModel/judges_gavel.glb" auto-rotate style="height: 120px; padding: 0px; margin: 0;
-                            width: 150px"></model-viewer></model>
+                            width: 150px"></model-viewer>
                 </a>
             </div>
         </div>
@@ -104,37 +118,236 @@
             </ul>
         </nav>
     </div>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="/eportal/Images/G20.png" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="/eportal/Images/banner-img3.jpg" style="width: 100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="/eportal/Images/Supreme Court Photos (4)-crop.jpg" style="width: 100%">
-        </div>
-    </div>
-    <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <script src="slideshow-container.js"></script>
-
-    <div class="maincontent">
-    <div class="armodel">
-        <strong>Want To Experience the AR Courts</strong>
-    </div>
-    </div>
-
-    <footer class="foot">
-        <ul>
-            <li><a href="#">Contact Us</a></li>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
         </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="/eportal/Images/banner-img3.jpg" alt="justice">
+            </div>
+            <div class="carousel-item active">
+                <img src="/eportal/Images/G20.png" alt="g20">
+            </div>
 
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <div class="maincontent" id="maincontent" style="font-size: 10px;">
+        <div class="newsannoucements">
+            <div class="news_section">
+                <h1 class="news_taital">Recent News</h1>
+                <div class="news_box">
+                    <div id="custom_slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="news_img"><img src="images/chandrayaan.avif">
+                                </div>
+                                <h2 class="does_taital">India Soft Lands on South Pole of Moon</h2>
+                                <p class="dummy_text">India's Chandrayaan-3 spacecraft landed on the moon on
+                                    August
+                                    23, 2023. This made India the fourth country to land on the moon and the
+                                    first
+                                    to land near the south pole. The landing spot was named "Shiv Shakti Point".
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="news_img"><img src="images/g20delhi.avif">
+                                </div>
+                                <h2 class="does_taital">G20 New Delhi Summit</h2>
+                                <p class="dummy_text">The 2023 G20 New Delhi summit was the eighteenth meeting
+                                    of
+                                    G20. It was held in Bharat Mandapam International Exhibition-Convention
+                                    Centre,
+                                    Pragati Maidan, New Delhi on 9–10 September 2023. It was the first G20
+                                    summit
+                                    held in India.
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="news_img"><img src="images/meloni-pm.jpeg">
+                                </div>
+                                <h2 class="does_taital">PM Modi holds Giorgia Meloni</h2>
+                                <p class="dummy_text">Prime Minister Narendra Modi on Saturday held bilateral
+                                    talks
+                                    with his Italian counterpart Giorgia Meloni where he appreciated Italy
+                                    joining
+                                    the Global Biofuel Alliance and the India-Middle East-Europe Economic
+                                    Corridor
+                                    partnership.
+                                </p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="services_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="studies_taital">SERVICE OFFERINGS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_section_2">
+                    <div id="main_slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="colo">
+                                            <div class="service_box">
+                                                <div class="house_icon">
+                                                    <img src="images/icon-1.png" class="image_1">
+                                                    <img src="images/icon-4.png" class="image_2">
+                                                </div>
+                                                <h3 class="corporate_text">Lawyer</h3>
+                                                <p class="chunks_text">To access the Main Features|Please use the Login
+                                                    Link Given Below </p>
+                                                <div class="readmore_button"><a href="#">Login</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="colo">
+                                            <div class="service_box active">
+                                                <div class="house_icon">
+                                                    <img src="images/icon-5.png" class="image_1">
+                                                    <img src="images/icon-5.png" class="image_2">
+                                                </div>
+                                                <h3 class="corporate_text">Judge</h3>
+                                                <p class="chunks_text">To access the Main Features|Please use the Login
+                                                    Link Given Below</p>
+                                                <div class="readmore_button active"><a href="#">Portal</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="colo">
+                                            <div class="service_box">
+                                                <div class="house_icon">
+                                                    <img src="images/icon-3.png" class="image_1">
+                                                    <img src="images/icon-6.png" class="image_2">
+                                                </div>
+                                                <h3 class="corporate_text">Guest</h3>
+                                                <p class="chunks_text">To access the Main Features|Please use the Login
+                                                    Link Given Below</p>
+                                                <div class="readmore_button"><a href="#">Login</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="3dcourtmodel" style="display: flex;flex-direction: column; height:100%">
+                                    <div class="modeltext" style="width: 100%;text-align: center; height: 24px;">
+                                        <h1 style="font-weight: 800; font-size: 20px;">Experience 3D
+                                            Courts With Us</h1>
+                                    </div>
+                                    <div class="courtmodel">
+                                        <model-viewer src="/eportal/3dModel/JusticePalace.glb" auto-rotate camera-controls style="height: 320px; padding: 0px; margin: 0;
+                                                width: 600px"></model-viewer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="fcontainer">
+
+            <div class="foot">
+                <ul>
+                    <li> <a href="#">About </a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                    <li> <a href="#">Legal</a></li>
+                </ul>
+            </div>
+
+            <div class="siteFooterBar">
+                <div class="content">
+                    <p class="rights">&copy; All rights reserved.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Ministry_of_Law_and_Justice.png">
+                </div>
+            </div>
+
+
+            <div class="social-icons">
+
+
+                <div class="wrapper">
+                    <div class="button">
+                        <div class="icon1">
+
+                            <a href="#"><i><ion-icon name="logo-facebook"></i></ion-icon></a>
+                        </div>
+
+                    </div>
+
+                    <div class="button">
+                        <div class="icon2">
+
+                            <a href="#"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="button">
+                        <div class="icon3">
+
+                            <a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i><a>
+                        </div>
+
+                    </div>
+
+                    <div class="button">
+                        <div class="icon5">
+                            <a href="#"><i><ion-icon name="logo-youtube"></ion-icon></i><a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- js files -->
+    <script src="js/fontsize.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

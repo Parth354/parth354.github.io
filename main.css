@@ -14,6 +14,10 @@ body {
     height: 25px;
 }
 
+a :hover {
+    text-decoration: none;
+}
+
 .features ul {
     display: flex;
     align-items: flex-start;
@@ -21,10 +25,15 @@ body {
     line-height: 25px;
 }
 
-.features a {
+.features ul a {
     text-decoration: none;
     color: #EEEEEE;
     padding: 0px 15px;
+}
+
+.features ul li {
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .features .dropitems li:hover {
@@ -46,11 +55,13 @@ body {
     border-bottom: 1px solid #00ADB5;
     margin: 0px 2px !important;
 }
+
 .features .dropdown:hover .dropitems {
     display: block;
     z-index: 1;
     box-shadow: 10px 5px 5px black;
 }
+
 .header {
     width: 100%;
     margin: 10px 10px 4px 0;
@@ -69,14 +80,15 @@ body {
     align-items: flex-start;
 }
 
-.logo h1 {
+.header .logo h1 {
     font-size: 18px;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: 800;
 }
 
 .hearing {
-    margin : 10px auto;
+    margin: 10px auto;
 }
 
 .model {
@@ -101,13 +113,13 @@ body {
     text-decoration: none;
     line-height: 40px;
     padding: 10px 20px;
-
+    font-weight: 625;
 }
 
 .home {
     width: 22px;
     height: 18px;
-    
+
 }
 
 .navi li:hover {
@@ -149,4 +161,14 @@ body {
 .foot {
     background-color: #222831;
     bottom: 0;
+}
+
+.newsannoucements {
+    display: flex;
+    align-items: flex-start;
+    
+}
+#demo .carousel-item img {
+    width: 100vw;
+    height: 50vh;
 }

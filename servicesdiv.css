@@ -1,0 +1,124 @@
+.studies_taital{
+    width: 60vw;
+    font-size: 25px;
+    color: #001431;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-left: auto;
+}
+.col-sm-12 , .colo{
+position: relative;
+width: 100%;
+
+}
+@media only screen and (min-width: 768px){
+.colo{
+    max-width: 30%;
+}
+}
+.services_section {
+    width: 65vw;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.services_section_2 {
+    width: 100%;
+    background-color: #00ADB5;
+    padding: 45px 100px;
+    border-radius: 15px;
+    min-height:440px ;
+}
+
+.corporate_text{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+p.chunks_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    margin: 0px;
+    color: #000;
+}
+
+.readmore_button {
+    width: 160px;
+    float: left;
+    margin-top: 30px;
+}
+
+.readmore_button a {
+    width: 160px;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service_box .house_icon .image_2 {
+    display: none;
+}
+
+.service_box:hover .house_icon .image_2 {
+    display: block;
+}
+
+.service_box:hover .house_icon .image_1 {
+    display: none;
+}
+
+.service_box:hover .corporate_text {
+    color: #393E46;
+}
+
+.service_box:hover .readmore_button a {
+    background-color: #393E46;
+    color: #ffffff;
+}
+
+.service_box.active .corporate_text {
+    color: #393E46;
+}
+
+.service_box.active .readmore_button a {
+    background-color: #393E46;
+    color: #ffffff;
+}
+
+.services_section_2 a.carousel-control-prev {
+    left: -95px;
+    top: 172px;
+}
+
+.services_section_2 a.carousel-control-next {
+    right: -95px;
+    top: 172px;
+}
+
+.services_section_2 .carousel-control-next,
+.services_section_2 .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background: #000;
+    opacity: 1;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+.services_section_2 .carousel-control-next:focus,
+.services_section_2 .carousel-control-next:hover,
+.services_section_2 .carousel-control-prev:focus,
+.services_section_2 .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #000;
+}
