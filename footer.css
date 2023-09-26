@@ -1,4 +1,42 @@
-footer{
+.footer {
     background-color: #222831;
-    margin-top: 25px;
+    height: 110px;
+    width: 100%;
 }
+
+.bottom-slide {
+    margin-top: 10px;
+    width: 100%;
+    background: url(/eportal/Images/carousel-bg.png) repeat !important;
+    border-top: 1px solid #d2d2d2;
+}
+.bottom-slide .carousel-inner img{
+    width: 200px !important;
+    height:150px !important;
+}
+.foot-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #393E46;
+    height: 30px;
+}
+.foot-nav {
+    border-width:2px ;
+    border-right: #00adb5;
+}
+.foot-nav li a{
+    color: white;
+    font-weight: 600;
+    
+}
+.foot-nav li{
+    padding: 0 15px;
+}
+.foot-down{
+display: flex;
+height: 80px;
+justify-content: center;
+align-items: center;   
+}
+
