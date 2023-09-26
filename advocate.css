@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .main_box {
@@ -110,33 +111,37 @@ a {
 }
 
 .mcheader {
-    height: 9vh;
+    height: 50px;
     width: 100vw;
     background-color: #222831;
     display: flex;
     align-items: flex-start;
 }
-#logout-btn{
-   padding: 3px 10px;
-   color: white;
-   background-color: red;
-   border: none;
-   border-radius: 10px;
-   font-weight: 400;
+
+#logout-btn {
+    padding: 3px 12px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
 }
-.content .dropitems{
+
+.content .dropitems {
     display: none;
     background-color: #393E46;
     color: #EEEEEE;
     position: relative;
     line-height: 20px;
-    padding: 0px!important;
-    max-width: 120px;
-    }
-.content .dropitems li{
+    padding: 0px !important;
+    max-width: 110px;
+}
+
+.content .dropitems li {
     border-bottom: 1px solid #00ADB5;
     padding: 10px;
 }
+
 .content .dropdown:hover .dropitems {
     display: grid;
     z-index: 1;

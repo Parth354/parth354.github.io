@@ -76,54 +76,176 @@
 
                 <li class="notifications"><a href="#"><img src="/eportal/Images/notification-icon.png"
                             style="height: 25px; width: 30px; margin: 16px 13px 15px 13px;"></a>
-                        </li>
-
+                </li>
                 <li class="dropdown"><img src="/eportal/Images/user-logo.png"
-                        style="height: 30px; width: 35px; margin:13px;margin-right: 85px;">
+                        style="height: 30px; width: 35px; margin:13px;margin-right: 85px; margin-bottom: 6px;">
                     <ul class="dropitems" style="list-style: none;">
                         <li><a href="#">Profile</a></li>
                         <li><input type="button" id="logout-btn" value="Logout"></li>
-
                     </ul>
                 </li>
             </ul>
         </div>
         <div class="case">
             <div class="outerlayer">
+                <input type="checkbox" id="plus" style="display: none;" />
+                <div class="add" id="a1">
+                    <label for="plus">
+                        <h1>Client Details</h1>
+                    </label>
+                    <label for="plus" style="margin-left: 785px;margin-right: 15px;">
+                        <h1>+</h1>
+                    </label>
+                </div>
                 <div class="client-details">
                     <form id="client details">
-                        <label id="titles-form"> Firstname: </label>
-                        <input type="text" name="Firstname" size="25" />
-                        <label id="titles-form"> Lastname: </label>
-                        <input type="text" name="lastname" size="25" />
-                        <label id="titles-form">
-                            Course :
+                        <label class="title-form"> Firstname: </label>
+                        <input type="text" name="Firstname" size="25" required>
+                        <label class="title-form"> Lastname: </label>
+                        <input type="text" name="lastname" size="25" required>
+                        <label class="title-form">
+                            Gender:
                         </label>
-                        <select id="select-item">
+                        <select class="select-item" style="margin-right:25px; margin-left: 20px;">
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                             <option value="Other">Other</option>
                             <option value="Rather Not Say">Rather Not Say</option>
 
                         </select>
-                        <label id="titles-form">
-                            Phone :
+                        <label class="title-form">
+                            Phone:
                         </label>
-                        <input type="text" name="phone" size="10">
-                        Email:
-                        <input type="email" id="email" name="email">
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
+                        <input type="text" name="phone" size="10" required style="margin-right: 20px;">
+                        <label class="title-form">
+                            Email:
+                        </label>
+                        <input type="text" name="phone" required style="margin-left: 30px;">
+                        <select class="select-item" style="margin-right:125px; margin-left: 30px;">
+                            <option value="Petitioner">Petitioner</option>
+                            <option value="Respondant">Respondant</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <input type="submit" value="Save" id="form-btn" style="margin: 20px 15px 0px;">
+                        <input type="reset" value="Reset" id="form-btn">
                     </form>
 
+
+                </div>
+                <input type="checkbox" id="plus2" style="display: none;" />
+                <div class="add" id="a2">
+                    <label for="plus2">
+                        <h1>Case Details</h1>
+                    </label>
+                    <label for="plus2" style="margin-left: 790px;margin-right: 12px;">
+                        <h1>+</h1>
+                    </label>
                 </div>
                 <div class="case-details">
                     <form id="case-details">
+                        <label class="title-form"> Case No: </label>
+                        <input type="text" name="Case No." size="25" required>
+                        <label class="title-form"> Filling No : </label>
+                        <input type="text" name="Filling No" size="25" required style="margin-right: 30px;">
+                        <label class="title-form"> Act: </label>
+                        <input type="text" name="Case No." size="25" required
+                            style="margin-left: 35px;margin-right: 5px;">
+                        <label class="title-form"> Section: </label>
+                        <input type="text" name="Case No." size="25" required style="margin-left: 15px;">
+                        <label class="title-form">
+                            Case-Type:
+                        </label>
+                        <select class="select-item" style="width: 180px; margin-right: 15px;">
+                            <option value="Civil Case">Civil Case</option>
+                            <option value="Criminal Case">Criminal Case</option>
 
+                        </select>
+                        <label class="title-form">
+                            Sub-Type:
+                        </label>
+                        <select class="select-item" style="width: 200px; margin-right: 250px;">
+                            <option value="Civil Case">Civil Case</option>
+                            <option value="Criminal Case">Criminal Case</option>
+
+                        </select>
+                        <label class="title-form">
+                            Stage of Case:
+                        </label>
+                        <select class="select-item" style="width: 500px; margin-right: 250px;">
+                            <option value="Trial">Trial</option>
+                            <option value=" Final arguments"> Final arguments</option>
+                            <option value=" Prosecution evidence"> Prosecution evidence</option>
+                            <option value="  Arraignment"> Arraignment</option>
+                            <option value="Defence evidence">Defence evidence</option>
+                            <option value="Sentencing"> Sentencing</option>
+                        </select>
+                        <input type="submit" value="Save" id="form-btn" style="margin: 20px 15px 0px;">
+                        <input type="reset" value="Reset" id="form-btn">
+                    </form>
+                </div>
+                <input type="checkbox" id="plus3" style="display: none;" />
+                <div class="add" id="a3">
+                    <label for="plus3">
+                        <h1>FIR Detail</h1>
+                    </label>
+                    <label for="plus3" style="margin-left: 814px;margin-right: 12px;">
+                        <h1>+</h1>
+                    </label>
+                </div>
+                <div class="fir-details">
+                    <form id="fir-details">
+                        <label class="title-form"> FIR No: </label>
+                        <input type="text" name="Case No." size="25" required>
+                        <label class="title-form"> Police Station: </label>
+                        <input type="text" name="Police Station" size="25" required style="margin-right: 30px;">
+                        <label class="title-form"> District: </label>
+                        <input type="text" name="District" size="25" required style="margin-right: 10px;">
+                        <label class="title-form"> Date: </label>
+                        <input type="date" style="margin-right: 240px;">
+                        <input type="submit" value="Save" id="form-btn" style="margin: 20px 15px 0px;">
+                        <input type="reset" value="Reset" id="form-btn">
+                    </form>
+                </div>
+                <input type="checkbox" id="plus4" style="display: none;" />
+                <div class="add" id="a4">
+                    <label for="plus4">
+                        <h1>Witness Detail (If Any)</h1>
+                    </label>
+                    <label for="plus4" style="margin-left: 705px;margin-right: 12px;">
+                        <h1>+</h1>
+                    </label>
+                </div>
+                <div class="witness-details">
+                    <form id="witness-details">
+                        <label class="title-form"> Firstname: </label>
+                        <input type="text" name="Firstname" size="25" required>
+                        <label class="title-form"> Lastname: </label>
+                        <input type="text" name="lastname" size="25" required>
+                        <label class="title-form">
+                            Gender:
+                        </label>
+                        <select class="select-item" style="margin-right:25px; margin-left: 20px;">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                            <option value="Rather Not Say">Rather Not Say</option>
+
+                        </select>
+                        <label class="title-form">
+                            Phone:
+                        </label>
+                        <input type="text" name="phone" size="10" required style="margin-right: 20px;">
+                        <label class="title-form">
+                            Email:
+                        </label>
+                        <input type="text" name="phone" required style="margin-left: 30px; margin-right: 450px;">
+                        <input type="submit" value="Save" id="form-btn" style="margin: 20px 15px 0px;">
+                        <input type="reset" value="Reset" id="form-btn">
                     </form>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 
