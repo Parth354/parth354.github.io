@@ -24,7 +24,7 @@
 .visual {
     width: 50vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/eportal/Images/law.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(law.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
